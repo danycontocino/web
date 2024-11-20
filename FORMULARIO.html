@@ -1,0 +1,204 @@
+<html>
+<head>
+    <title> FORMULARIO DE REGSITRO </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="ESTILO.css">
+    <style>
+        <h1 class="neon-text">Neón Morado</h1>
+
+    </style>
+</head>
+<body>
+
+    <font size="10" color="WHITE" face="black ground">
+
+        <center>
+            <b>
+                <i>
+                    
+
+            FORMULARIO DE REGISTRO 
+        </b>
+    </i>
+        </center>
+        
+    </font>
+
+    <div class = center>
+        
+        <form>
+            <label>Documento</label>
+            <input type="number" id="doc" name="documento" placeholder="Ingrese su documento">
+            <label>Nombres</label>
+            <input type="text" id="nom" name="nombre" placeholder="Ingrese su nombre">
+            <label> Apellido</label>
+            <input type="text" id="doc" name="apellido" placeholder="Ingrese su apellido">
+            <label>Edad</label>
+            <input type="number" id="doc" name="Edad" placeholder="Ingrese su edad">
+            <label>Telefono</label>
+            <input type="number" id="tel" name="telefono" placeholder="Ingrese su telefono">
+        
+
+            <br>
+            <br>
+            
+           
+            <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método de Pago</title>
+    <style>
+        .payment-method-label-clickable {
+            cursor: pointer; /* Cambia el cursor para indicar que es clicable */
+            display: flex; /* Utiliza flexbox para alinear elementos */
+            align-items: center; /* Centra verticalmente */
+            padding: 10px; /* Espacio alrededor del elemento */
+            border: 1px solid transparent; /* Bordes iniciales para efectos visuales */
+            transition: background-color 0.3s, transform 0.1s; /* Transiciones suaves */
+            border-radius: 5px; /* Bordes redondeados */
+        }
+
+        .payment-method-label-clickable:hover {
+            background-color: #f0f0f0; /* Color de fondo al pasar el ratón */
+        }
+
+        .selected {
+            background-color: #e0e0e0; /* Color de fondo cuando está seleccionado */
+            transform: translateY(2px); /* Hace que parezca hundido */
+        }
+
+        .payment-method-label-image img {
+            width: 24px; /* Ajusta el tamaño de la imagen si es necesario */
+            height: auto; /* Mantiene la proporción de la imagen */
+        }
+
+        .payment-method-label-text {
+            margin-left: 10px; /* Espacio entre la imagen y el texto */
+        }
+
+        .payment-spacer {
+            margin-bottom: 10px; /* Espacio entre las opciones de pago */
+        }
+    </style>
+</head>
+<body>
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Método de Pago</title>
+        <style>
+            .payment-method-label-clickable {
+                cursor: pointer; /* Cambia el cursor para indicar que es clicable */
+                display: flex; /* Utiliza flexbox para alinear elementos */
+                align-items: center; /* Centra verticalmente */
+                padding: 10px; /* Espacio alrededor del elemento */
+                border: 1px solid transparent; /* Bordes iniciales para efectos visuales */
+                transition: background-color 0.3s, transform 0.1s; /* Transiciones suaves */
+                border-radius: 5px; /* Bordes redondeados */
+            }
+    
+            .payment-method-label-clickable:hover {
+                background-color: #f0f0f0; /* Color de fondo al pasar el ratón */
+            }
+    
+            .selected {
+                background-color: #e0e0e0; /* Color de fondo cuando está seleccionado */
+                transform: translateY(2px); /* Hace que parezca hundido */
+            }
+    
+            .payment-method-label-image img {
+                width: 40px; /* Ajusta el tamaño de la imagen a 40px */
+                height: auto; /* Mantiene la proporción de la imagen */
+            }
+    
+            .payment-method-label-text {
+                margin-left: 10px; /* Espacio entre la imagen y el texto */
+            }
+    
+            .payment-spacer {
+                margin-bottom: 10px; /* Espacio entre las opciones de pago */
+            }
+        </style>
+    </head>
+    <body>
+    
+    <div id="payment-method" class="col-sm-6">
+        <div class="payment-spacer">Seleccionar el tipo de pago:</div>
+        <form id="payment-method-form" class="payment-method-form">
+            <div class="payment-spacer payment-method-label-clickable" onclick="selectPaymentMethod(this, 'Bancolombia')">
+                <label class="payment-method-label">
+                    <span class="payment-method-label-image">
+                        <span class="payment-method-image">
+                            <img src="banco.png" alt="Bancolombia">
+                        </span>
+                    </span>
+                    <span class="payment-method-label-text">Bancolombia</span>
+                </label>
+            </div>
+            <div class="payment-spacer payment-method-label-clickable" onclick="selectPaymentMethod(this, 'paypal')">
+                <label class="payment-method-label">
+                    <span class="payment-method-label-image">
+                        <span class="payment-method-image">
+                            <img src="23.png" alt="PayPal">
+                        </span>
+                    </span>
+                    <span class="payment-method-label-text">Paypal</span>
+                </label>
+            </div>
+            <div class="payment-spacer payment-method-label-clickable" onclick="selectPaymentMethod(this, 'Nequi')">
+                <label class="payment-method-label">
+                    <span class="payment-method-label-image">
+                        <span class="payment-method-image">
+                            <img src="22.png" alt="Nequi">
+                        </span>
+                    </span>
+                    <span class="payment-method-label-text">Nequi</span>
+                </label>
+            </div>
+        </form>
+    
+        <br>
+        <center>
+            <button type="button" class="btn btn-warning">INGRESAR</button>
+        </center>
+    </div>
+    
+    <script>
+        function selectPaymentMethod(element, method) {
+            // Remueve la clase 'selected' de todas las opciones
+            const options = document.querySelectorAll('.payment-method-label-clickable');
+            options.forEach(option => option.classList.remove('selected'));
+            
+            // Agrega la clase 'selected' al elemento clicado
+            element.classList.add('selected');
+            
+            // Aquí puedes manejar la lógica de selección del método de pago
+            console.log("Método de pago seleccionado:", method);
+        }
+    </script>
+    
+    </body>
+    </html>
+    
+
+
+            
+            
+                    
+
+                       
+
+
+                  
+
+
+                
+        
+                
+
+

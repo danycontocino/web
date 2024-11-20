@@ -1,0 +1,149 @@
+body {
+    background-color: #70b3d3;
+}
+
+input {
+    width: 110%;
+    padding: 14px;
+    margin: 12px 0;
+    border-style: ridge;
+    font-family: courier;
+}
+
+label {
+    font-family: courier;
+    font-size: 90%;
+}
+
+select {
+    font-family: courier;
+    font-size: 90%;
+}
+
+div.center {
+    display: flex;
+    justify-content: center;
+}
+
+.mi-formulario {
+    background-color: hsla(300, 84%, 64%, 0.741); 
+    border: 2px solid #33ffd388; 
+    border-radius: 8px; 
+    padding: 20px; 
+    max-width: 400px;
+    margin: 20px auto; 
+    font-family: Arial, sans-serif;
+    color: #333; */
+}
+.payment-method-image img {
+    width: 30px;
+    height: auto; 
+    vertical-align: middle; 
+}
+
+.payment-method-label {
+    display: flex; 
+    align-items: center; 
+}
+
+.payment-method-radio-input {
+    margin-right: 10px;
+}
+
+.payment-spacer {
+    margin-bottom: 10px; 
+}
+
+.payment-method-label-clickable {
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+    padding: 10px; 
+    border: 1px solid transparent;
+    transition: background-color 0.3s; 
+}
+
+.payment-method-label-clickable:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc; 
+}
+
+.payment-method-label-image img {
+    width: 24px; 
+    height: auto; 
+}
+
+.payment-method-label-text {
+    margin-left: 10px; 
+}
+
+
+
+
+
+
+body {
+    background: radial-gradient(
+        circle at top center,
+        #4B0082, 
+        #6A0dad, 
+        #8A2BE2, 
+        #9370DB, 
+        #BA55D3, 
+        #DA70D6 60%, 
+        #DDA0DD 80% 
+    );
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+/* Aplica el fondo neón para toda la página */
+body {
+    background: linear-gradient(45deg, #39FF14, #00FFFF, #FF007F, #FFD700);
+    background-size: 300% 300%;
+    animation: neonBackground 6s ease-in-out infinite;
+    color: white; /* Asegura que el texto sea blanco para mayor contraste */
+  }
+  
+  /* Animación del fondo neón */
+  @keyframes neonBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Asegura que el texto en la página se vea correctamente */
+  h1, h2, h3, h4, h5, h6, p, .navbar, .card-body {
+    color: white; /* Asegura que el texto sea blanco */
+  }
+  
+  /* Estilo de la navbar */
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo más oscuro para la navbar */
+    color: white;
+  }
+  
+  /* Asegura que los enlaces en la navbar sean legibles */
+  .navbar a {
+    color: white !important;
+  }
+  
+  /* Para los botones en las tarjetas */
+  .btn-primary {
+    background-color: #FFD700; /* Amarillo neón */
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #FF007F; /* Rosa neón en hover */
+  }
+  

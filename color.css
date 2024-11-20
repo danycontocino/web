@@ -1,0 +1,202 @@
+/* Aplica el fondo neón para toda la página */
+body {
+    background: linear-gradient(45deg, #39FF14, #00FFFF, #FF007F, #FFD700);
+    background-size: 300% 300%;
+    animation: neonBackground 6s ease-in-out infinite;
+    color: white; /* Cambia el color del texto a negro */
+}
+
+/* Animación del fondo neón */
+@keyframes neonBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Asegura que el texto en la página se vea correctamente */
+h1, h2, h3, h4, h5, h6, p, .navbar, .card-body {
+    color: white; /* Asegura que el texto sea negro */
+}
+
+/* Estilo de la navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo más oscuro para la navbar */
+    background: linear-gradient(45deg, #39FF14, #00FFFF, #FF007F, #FFD700);
+    background-size: 300% 300%;
+    animation: neonBackground 6s ease-in-out infinite;
+    color: white; /* Cambia el color del texto a negro */
+}
+}
+
+/* Asegura que los enlaces en la navbar sean legibles */
+.navbar a {
+    background: linear-gradient(45deg, #39FF14, #00FFFF, #FF007F, #FFD700);
+    background-size: 300% 300%;
+    animation: neonBackground 6s ease-in-out infinite;
+    color: white; /* Cambia el color del texto a negro */
+}
+}
+
+/* Para los botones en las tarjetas */
+.btn-primary {
+    background-color: #FFD700; /* Amarillo neón */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #FF007F; /* Rosa neón en hover */
+}
+
+/* Estilo de tu formulario */
+.mi-formulario {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    border: 2px solid #33ffd388; 
+    border-radius: 8px; 
+    padding: 20px; 
+    max-width: 400px;
+    margin: 20px auto; 
+    font-family: Arial, sans-serif;
+    color: white; /* Cambia el color del texto en el formulario a negro */
+}
+
+/* Asegura que el texto en el formulario sea negro */
+.mi-formulario h1, .mi-formulario p {
+    color: white; /* Asegura que el texto en el formulario sea negro */
+}
+
+/* Ajustes para imágenes dentro del formulario */
+.payment-method-image img {
+    width: 30px;
+    height: auto; 
+    vertical-align: middle; 
+}
+
+.payment-method-label {
+    display: flex; 
+    align-items: center; 
+}
+
+.payment-method-radio-input {
+    margin-right: 10px;
+}
+
+.payment-spacer {
+    margin-bottom: 10px; 
+}
+
+.payment-method-label-clickable {
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+    padding: 10px; 
+    border: 1px solid transparent;
+    transition: background-color 0.3s; 
+}
+
+.payment-method-label-clickable:hover {
+    background: linear-gradient(45deg, #39FF14, #00FFFF, #FF007F, #FFD700);
+    background-size: 300% 300%;
+    animation: neonBackground 6s ease-in-out infinite;
+    color: white; /* Cambia el color del texto a negro */
+}
+
+.payment-method-label-image img {
+    width: 24px; 
+    height: auto; 
+}
+
+.payment-method-label-text {
+    margin-left: 10px; 
+}
+
+/* Fondo de la página principal con colores neón animados */
+body {
+    background: linear-gradient(45deg, #39FF14, #00FFFF, #FF007F, #FFD700);
+    background-size: 300% 300%;
+    animation: neonBackground 6s ease-in-out infinite;
+    color: white; /* Asegura que el texto sea negro */
+    margin: 0; /* Para eliminar el margen predeterminado */
+    height: 100vh; /* Para que el fondo ocupe toda la altura */
+}
+
+/* Animación del fondo neón */
+@keyframes neonBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Estilo del formulario y contenedor */
+.mi-formulario {
+    background: linear-gradient(45deg, #39FF14, #00FFFF, #FF007F, #FFD700); /* Fondo con colores neón */
+    border: 2px solid #33ffd388; 
+    border-radius: 8px; 
+    padding: 20px; 
+    max-width: 400px;
+    margin: 20px auto; 
+    font-family: Arial, sans-serif;
+    color: white; /* Texto negro */
+}
+
+/* Asegura que el texto en la página se vea correctamente */
+h1, h2, h3, h4, h5, h6, p, .navbar, .card-body {
+    color: white; /* Asegura que el texto sea negro */
+}
+
+/* Estilo de la navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo más oscuro para la navbar */
+    color: white;
+}
+
+/* Asegura que los enlaces en la navbar sean legibles */
+.navbar a {
+    color: white !important;
+}
+
+/* Para los botones en las tarjetas */
+.btn-primary {
+    background-color: #FFD700; /* Amarillo neón */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #FF007F; /* Rosa neón en hover */
+}
+
+/* Otros estilos (input, select, etc.) */
+input {
+    width: 110%;
+    padding: 14px;
+    margin: 12px 0;
+    border-style: ridge;
+    fon
+
+    .card {
+        background: linear-gradient(45deg, #39FF14, #00FFFF, #FF007F, #FFD700); /* Fondo con colores neón */
+        color: white; /* Texto negro */
+        border: none; /* Quita el borde, si es necesario */
+    }
+    
+    .card-body {
+        background: linear-gradient(45deg, #39FF14, #00FFFF, #FF007F, #FFD700); /* Asegúrate de que también se aplique en el cuerpo de la tarjeta */
+    }
+    
+    <style>
+  .nav-link {
+    font-size: 16px; /* Cambia el tamaño según lo necesites */
+    color: #6c757d;  /* Color de texto similar al original */
+  }
+</style>

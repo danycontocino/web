@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title> FORMULARIO DE REGSITRO </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href=""
+</head>
+<body>
+
+    <font size="10" color="BLACK" face="courier">
+
+        <center> FORMULARIO DE REGISTRO </center>
+        
+    </font>
+
+    <div class = center>
+        <form>
+            <label>Documento></label>
+            <imput type="number" id="doc" name="documento"placeholder="Ingrese su documento">
+                <label>Documento></label>
+            <imput type="text" id="nom" name="nombre"placeholder="Ingrese su nombre">
+                <label>Documento></label>
+            <imput type="text" id="doc" name="apellido"placeholder="Ingrese su apellido">
+                <label>Documento></label>
+            <imput type="number" id="tel" name="documento"telefono="Ingrese su telefono">
+            <label>Documento></label>
+            <br>
+            <br>
+                <label>Grupo</label>
+                <select id="grupo" name="grupo">
+                       <option valure="Alpha"> Alpha</option>
+                       <option valure="Beta"> Beta</option>
+                       <option valure="Gamaa"> Gama</option>
+                       </select>
+                       
+                       <br>
+                       <br>
+                       <input type="submit" value="ingresar">
+
+                       
+                       </form>
+
+                  
+
+
+                
+        
+                
+
+

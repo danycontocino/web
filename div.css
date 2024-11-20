@@ -1,0 +1,73 @@
+div.gallery {
+  border: 1px solid #00FFFF; /* Borde de cada imagen */
+  border-radius: 8px; /* Bordes redondeados */
+  overflow: hidden; /* Ocultar el desbordamiento */
+  text-align: center; /* Centrar el contenido de la galería */
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto; 
+  auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.padre {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+  grid-template-rows: repeat(2, auto); /* Dos filas */
+  gap: 0; /* Sin espacio entre las celdas */
+  max-width: 870px; /* Ancho total ajustado para tres imágenes por fila */
+  margin: auto;
+}
+
+.gallery {
+  border: 1px solid #ff337d; /* Borde de cada imagen */
+  text-align: center;
+}
+
+.gallery img {
+  width: 100%; /* Ocupa el ancho completo del contenedor */
+  height: auto; /* Mantiene la proporción */
+}
+
+.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+/* Fondo con efecto de neón degradado en tonos azules y verdes */
+body {
+  background: radial-gradient(
+      circle at top center, 
+      #001f3f, /* Azul oscuro al centro */
+      #003366, 
+      #004080, 
+      #0059b3, 
+      #0073e6, 
+      #0099ff 50%, /* Azul brillante */
+      #00cc99, /* Verde claro */
+      #00ffcc, /* Verde brillante */
+      #33ff99 80%, /* Verde más claro */
+      #66ffe6 90% /* Verde más suave al borde */
+  );
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Estilos para el título */
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #b3e0ff; /* Color del texto */
+  text-shadow: 
+    0 0 5px #b3e0ff,
+    0 0 10px #80d4ff,
+}
